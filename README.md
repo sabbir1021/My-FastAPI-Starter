@@ -22,3 +22,17 @@ fastapi_app/
 └── .github/
     └── workflows/
         └── ci.yml
+
+
+
+<!-- Task -->
+1. database connect
+2. Custom response Middleware
+3. redis connect
+4. celery connect
+5. JWT Authentication
+6. Dependency 
+
+
+Project Run:
+```uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload```

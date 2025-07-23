@@ -32,6 +32,8 @@ fastapi_app/
 4. celery connect
 5. JWT Authentication
 6. Dependency 
+7. unit and integration test
+8. mypy setup
 
 
 Project Run:
@@ -58,3 +60,18 @@ To Stop the Running Container
 ### To fix the distutils dependency issue in docker
 ```sudo apt update```
 ```sudo apt install python3-distutils```
+
+
+
+### pytest for unit and integration test:
+
+export pwd for pythonpath in run pytest
+```export PYTHONPATH=$(pwd)```
+
+run command:
+```pytest -v tests/```
+
+for details or log use command:
+```pytest -s tests/```
+
+

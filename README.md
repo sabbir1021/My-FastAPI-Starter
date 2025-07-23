@@ -36,3 +36,25 @@ fastapi_app/
 
 Project Run:
 ```uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload```
+
+
+Build & Run with Docker 
+```docker-compose up --build```
+
+Use the -d flag to run in detached mode:
+```docker compose up --build -d```
+
+See docker live Logs for a Specific Service
+fastapi here is Specific Service
+```docker compose logs -f fastapi```
+
+See Logs from All Services
+```docker compose logs -f```
+
+To Stop the Running Container
+```docker compose down```
+```docker compose stop ```
+
+### To fix the distutils dependency issue in docker
+```sudo apt update```
+```sudo apt install python3-distutils```

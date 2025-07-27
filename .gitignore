@@ -1,1 +1,11 @@
 .env
+venv/
+
+
+# Ignore all Python bytecode
+**/__pycache__/
+*.py[cod]
+
+
+# Pytest
+.pytest_cache/

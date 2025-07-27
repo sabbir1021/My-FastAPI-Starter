@@ -65,6 +65,8 @@ To Stop the Running Container
 
 ### pytest for unit and integration test:
 
+need install pytest and httpx
+
 export pwd for pythonpath in run pytest
 ```export PYTHONPATH=$(pwd)```
 
